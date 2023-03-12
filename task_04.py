@@ -23,5 +23,7 @@ if revenue > costs:
     print(f'Рентабельность выручки = {costs / revenue}')
     headcount = int(input('Введите численность сотрудников фирмы: '))
     print(f'Прибыль фирмы в расчете на одного сотрудника = {(revenue - costs) / headcount}')
+elif revenue == costs:
+    print(f'Финансовый результат - прибыль равна выручке.')
 else:
     print(f'Финансовый результат - убыток, издержки больше выручки.')

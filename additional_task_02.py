@@ -11,9 +11,9 @@ s = str(n)
 summa = 0
 while n > 0:
     x = n % 10
-    summa = summa + x
+    sum_number = sum_number + x
     n = n // 10
-print('Сумма цифр трехзначного числа равна:', summa,'(', s[0],'+', s[1],'+', s[2],')')
+print('Сумма цифр трехзначного числа равна:', sum_number,'(', s[0],'+', s[1],'+', s[2],')')
 
 #или
 
